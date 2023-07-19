@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yatask"
+version = "0.1.0"
+description = ""
+authors = ["maratahmetov <ax-marat@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+telebot = "^0.0.5"
+assemblyai = "^0.13.0"
+black = "^23.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
